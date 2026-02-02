@@ -66,6 +66,7 @@ systick_ret_t systick_wait(uint32_t ms)
 
 systick_ret_t systick_start()
 {
+    // you have to call systick_set_val `
     SYSTICK->CTRL |= (1 << SYSTICK_REG_ENABLE);
     return SYSTICK_OK;
 }
