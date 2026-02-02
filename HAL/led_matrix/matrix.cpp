@@ -2,7 +2,7 @@
 #include "../../service/scheduler/sched.h"
 
 
-static mat_cfg_t *G_matrix_cfg = NULL;
+static mat_cfg_t *G_matrix_cfg = (mat_cfg_t *)NULL;
 
 static void turn_all_on_but(mat_cfg_t *matrix_cfg, uint8_t pin);
 static void turn_all_off_but(mat_cfg_t *matrix_cfg, uint8_t pin);

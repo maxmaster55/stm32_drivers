@@ -1,5 +1,5 @@
 #pragma once
-#include"glob.h"
+#include"../../glob.h"
 #include "dma_regs.h"
 
 // register structures
